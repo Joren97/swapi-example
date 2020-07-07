@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="conte">
+    <div class="content">
       <h1 class="title">Luke Skywalker</h1>
       <p>Get the information from Luke over here</p>
     </div>
