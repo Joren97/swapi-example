@@ -7,9 +7,7 @@ const agent = new https.Agent({
 export default function({ $axios, app, store }) {
   $axios.onRequest(config => {});
 
-  $axios.onResponse(response => {
-    console.log("Got response");
-  });
+  $axios.onResponse(response => {});
 
   $axios.onError(response => {
     console.log(response);
