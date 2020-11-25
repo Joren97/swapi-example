@@ -4,8 +4,6 @@ export default {
    ** Headers of the page
    */
   head: {
-	  
-	  
     title: process.env.npm_package_name || "",
     meta: [
       { charset: "utf-8" },
@@ -21,7 +19,7 @@ export default {
   /*
    ** Customize the progress-bar color
    */
-  loading: { color: "#fff" },
+  loading: { color: "#ff0000" },
   /*
    ** Global CSS
    */
